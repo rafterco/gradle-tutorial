@@ -1,8 +1,9 @@
 plugins {
   id 'application'
-  id 'jacoco'
-  id 'checkstyle'
+  id 'pl.allegro.tech.build.axion-release' version '1.13.2'
 }
+
+version = scmVersion.version
 
 application {
   mainClass = 'com.rafter.GradleTutorial'
