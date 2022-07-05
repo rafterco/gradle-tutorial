@@ -3,5 +3,6 @@ package com.rafter;
 public class GradleTutorial {
     public static void main(String[] args) {
         System.out.println("Gradle twi");
+        System.out.println("test change for version update");
     }
 }
